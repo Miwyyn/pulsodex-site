@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulsodex | Software sob demanda</title>
+  <meta name="description" content="Software sob medida: automações, IA e visão computacional.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23111214'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23A8896A'/%3E%3C/svg%3E">
+</head>
+<body>
+
+  <header class="topo">
+    <a href="inicio" class="logo">
+      <svg viewBox="0 0 360 245" aria-hidden="true">
+        <path d="M17 127H106L150 15L195 230L222 132H295A48 48 0 0 0 295 36H200"
+        fill="none" stroke="currentColor" stroke-width="16"
+        stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Pulsodex
+    <nav>
+      <a href="#projetos" data-i18n="nav_projetos">Projetos</a>
+      <a href="#servicos" data-i18n="nav_servicos">Serviços</a>
+      <a href="#processo" data-i18n="nav_processo">Como funciona</a>
+      <div class="idioma">
+        <button data-idioma="pt">PT</button>
+        <button data-idioma="en">EN</button>
+        <button data-idioma="es">ES</button>
+      </div>
+      <button id="tema" class="tema" aria-label="Alternar tema">◐</button>
+      <a href="#contato" class="btn" data-i18n="nav_orcamento">Orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <span class="selo"><i class="ponto"></i> <span data-i18n="selo">Aberto para novos projetos</span></span>
+      <h1 data-i18n="hero_titulo">Software sob medida, do problema à entrega.</h1>
+      <p data-i18n="hero_texto">Automações, inteligência artificial e visão computacional para tirar sua ideia do papel.</p>
+      <a href="#contato" class="btn" data-i18n="hero_botao">Solicitar orçamento</a>
+    </section>
+
+    <section id="projetos" class="secao">
+      <h2 data-i18n="proj_titulo">Projetos</h2>
+      <p class="secao-sub" data-i18n="proj_sub">Soluções que já desenvolvi e posso adaptar ao seu caso.</p>
+
+      <div class="grade">
+        <article class="cartao">
+          <span class="status disponivel" data-i18n="status_disponivel">Disponível sob demanda</span>
+          <h3 data-i18n="p1_titulo">Reconhecimento facial em tempo real</h3>
+          <p data-i18n="p1_texto">Identificação de pessoas pela câmera, com cadastro de rostos e resposta instantânea.</p>
+          <ul class="tags">
+            <li>Python</li>
+            <li>OpenCV</li>
+            <li>IA</li>
+          </ul>
+        </article>
+
+        <article class="cartao">
+          <span class="status andamento" data-i18n="status_andamento">Em desenvolvimento</span>
+          <h3 data-i18n="p2_titulo">Controle por gestos</h3>
+          <p data-i18n="p2_texto">Comande o computador com as mãos, sem teclado nem mouse, usando a câmera.</p>
+          <ul class="tags">
+            <li>Python</li>
+            <li>MediaPipe</li>
+            <li>OpenCV</li>
+          </ul>
+        </article>
+
+        <article class="cartao">
+          <span class="status andamento" data-i18n="status_andamento">Em desenvolvimento</span>
+          <h3 data-i18n="p3_titulo">Busca e resgate</h3>
+          <p data-i18n="p3_texto">Software de apoio para localizar aeronaves desaparecidas, agilizando operações de resgate.</p>
+          <ul class="tags">
+            <li>Python</li>
+            <li>Visão computacional</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="servicos" class="secao">
+      <h2 data-i18n="serv_titulo">Serviços</h2>
+      <p class="secao-sub" data-i18n="serv_sub">O que posso construir para você.</p>
+
+      <div class="grade">
+        <article class="cartao">
+          <h3 data-i18n="s1_titulo">Sites e landing pages</h3>
+          <p data-i18n="s1_texto">Páginas rápidas, responsivas e com visual profissional para o seu negócio.</p>
+        </article>
+        <article class="cartao">
+          <h3 data-i18n="s2_titulo">Automações e scripts</h3>
+          <p data-i18n="s2_texto">Elimine tarefas repetitivas: planilhas, relatórios, rotinas e integrações.</p>
+        </article>
+        <article class="cartao">
+          <h3 data-i18n="s3_titulo">IA e visão computacional</h3>
+          <p data-i18n="s3_texto">Reconhecimento facial, controle por gestos e agentes inteligentes.</p>
+        </article>
+        <article class="cartao">
+          <h3 data-i18n="s4_titulo">Aplicativos desktop</h3>
+          <p data-i18n="s4_texto">Sistemas para Windows em C#/.NET, sob medida para a sua rotina.</p>
+        </article>
+        <article class="cartao">
+          <h3 data-i18n="s5_titulo">Bots</h3>
+          <p data-i18n="s5_texto">Atendimento e tarefas automáticas no WhatsApp, Telegram ou Discord.</p>
+        </article>
+        <article class="cartao">
+          <h3 data-i18n="s6_titulo">Integrações e APIs</h3>
+          <p data-i18n="s6_texto">Conecte seus sistemas e ferramentas para trabalharem juntos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="processo" class="secao">
+      <h2 data-i18n="proc_titulo">Como funciona</h2>
+      <p class="secao-sub" data-i18n="proc_sub">Do primeiro contato à entrega, de forma simples e transparente.</p>
+
+      <ol class="passos">
+        <li>
+          <span class="numero">01</span>
+          <h3 data-i18n="pr1_titulo">Briefing</h3>
+          <p data-i18n="pr1_texto">Você conta a ideia e o problema que quer resolver.</p>
+        </li>
+        <li>
+          <span class="numero">02</span>
+          <h3 data-i18n="pr2_titulo">Proposta</h3>
+          <p data-i18n="pr2_texto">Envio escopo, prazo e valor antes de começar.</p>
+        </li>
+        <li>
+          <span class="numero">03</span>
+          <h3 data-i18n="pr3_titulo">Desenvolvimento</h3>
+          <p data-i18n="pr3_texto">Você acompanha o progresso e valida cada etapa.</p>
+        </li>
+        <li>
+          <span class="numero">04</span>
+          <h3 data-i18n="pr4_titulo">Entrega e suporte</h3>
+          <p data-i18n="pr4_texto">Projeto entregue, documentado e com suporte inicial.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section id="sobre" class="secao">
+      <h2 data-i18n="sobre_titulo">Sobre</h2>
+      <div class="sobre">
+        <p data-i18n="sobre_p1">Dev nascido em Minas Gerais, região metropolitana de Belo Horizonte, em formação em Análise e Desenvolvimento de Sistemas. Aprendo construindo: meus projetos de visão computacional e IA.</p>
+        <p data-i18n="sobre_p2">Com experiência prévia em logística e varejo, entendo bem a rotina de quem precisa de software que funcione no dia a dia, sem complicação.</p>
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <h2 data-i18n="contato_titulo">Vamos conversar?</h2>
+      <p class="secao-sub" data-i18n="contato_sub">Conte sua ideia e eu respondo com uma proposta.</p>
+
+      <div class="contato-grade">
+        <form id="form-contato" class="form">
+          <label>
+            <span data-i18n="f_nome">Nome</span>
+            <input type="text" id="nome" required>
+          </label>
+          <label>
+            <span data-i18n="f_tipo">Tipo de projeto</span>
+            <select id="tipo">
+              <option data-i18n="o1">Site ou landing page</option>
+              <option data-i18n="o2">Automação ou script</option>
+              <option data-i18n="o3">IA e visão computacional</option>
+              <option data-i18n="o4">Aplicativo desktop</option>
+              <option data-i18n="o5">Bot</option>
+              <option data-i18n="o6">Outro</option>
+            </select>
+          </label>
+          <label>
+            <span data-i18n="f_ideia">Sua ideia</span>
+            <textarea id="mensagem" rows="5" required></textarea>
+          </label>
+          <button type="submit" class="btn" data-i18n="f_enviar">Enviar pelo WhatsApp</button>
+        </form>
+
+        <div class="contato-info">
+          <a href="mailto:ryotasatt@gmail.com">ryotasatt@gmail.com</a>
+          <a href="https://wa.me/5531991276230" target="_blank" rel="noopener">WhatsApp: (31) 99127-6230</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p data-i18n="rodape">© 2026 Pulsodex. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="js/idiomas.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
